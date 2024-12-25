@@ -15,6 +15,44 @@ img {
 /* main style end  */
 
 
+/* Header style */
+header {
+  background-color: black;
+  padding: 15px 0;
+  font-size: 17px;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  /* background-color: #fafafa; */
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.header_links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul li {
+  height: 25px;
+  opacity: 0.7;
+}
+
+.logo-link,
+.cart_icon,
+.search_icon {
+  width: 18px;
+}
+
+/* header style end  */
+
 /* First section banner (16-inch MacBook Pro)
 style */
 .macbookPro {
@@ -77,7 +115,7 @@ style */
   color: #86868b;
   font-size: 0.85em;
 }
-=======
+
 /* Fifth section style start */
 /* air pods pro & baby  */
 .tv-flex {
